@@ -20,7 +20,7 @@ We use a random effects meta-analysis to estimate the overall effect size across
 
 Suppose we have $N$ studies ($i = 1, 2, ..., N$), each reporting an observed effect $\hat{\theta}_i$ and its standard error $SE_i$. The model assumes:
 
-$${\hat{\theta}_i} \sim Normal(\theta_i, \sigma^2)$$
+$${\hat{\theta}_i} \sim Normal(\theta_i, \sigma_i^2)$$
 
 where $\sigma_i = SE_i$ is the known standard error for study $i$.
 
